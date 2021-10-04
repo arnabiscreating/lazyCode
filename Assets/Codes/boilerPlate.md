@@ -11,7 +11,13 @@
         <td>  Other</td>
     </tr>
 </table>
-
+<table>
+    <tr>
+        <td>  Easy</td>
+        <td>  Medium</td>
+        <td>  Hard</td>
+    </tr>
+</table>
 <!-- ### Question Plaform
 (If platform is miscellaneous)
 ✔️AtCoder
