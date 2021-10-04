@@ -1,7 +1,7 @@
 #### Find the Duplicate Number
 
 #### Language: C++ 
-#### Level: Medium 
+
 #### Question Statement:
 Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
 
