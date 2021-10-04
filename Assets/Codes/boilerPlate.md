@@ -1,6 +1,6 @@
 ## TITLE
 
-### 💻 Language(s)
+### 💻 Language(s) / Level of Problem
 
 <table>
     <tr>
@@ -9,6 +9,13 @@
         <td>  Java</td>
         <td>  C</td>
         <td>  Other</td>
+    </tr>
+    </table>
+    <table>
+    <tr>
+        <td>  Easy</td>
+        <td>  Medium</td>
+        <td>  hard</td>
     </tr>
 </table>
 
