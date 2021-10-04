@@ -13,7 +13,16 @@
 
 #### 🔥  During the entire month of October 2021, all you have to do is open at least 4 pull requests.
 #### 🎉 Complete the 2021 challenge and earn a limited edition T-shirt.
-#### 📢 Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest
+#### 📢 Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest 2021.
+
+## Github Contribution Rules
+- Pull requests can be submitted to any opted-in repository on GitHub or GitLab.
+- The pull request must contain commits you made yourself.
+- If a maintainer reports your pull request as spam, it will not be counted toward your participation in Hacktoberfest.
+- If a maintainer reports behavior that’s not in line with the project’s code of conduct, you will be ineligible to participate.
+- To get a shirt, you must make four approved pull requests (PRs) on opted-in projects between October 1-31 in any time zone.
+- This year, the first 50,000 participants can earn a T-shirt.
+---
 
 # How do I get started?
 
@@ -23,7 +32,7 @@
 
 - You'll get assigned if noone is working on the issue.
 
-- Feel free to [raise a PR](https://github.com/encodeArnab/Hacktoberfest2021/pulls) to add beginner-friendly issues (& repos).
+- Feel free to *raise a PR* to add beginner-friendly issues (& repos).
 
 
 # How to Contribute
@@ -49,11 +58,15 @@
    Click the Compare & pull request button.<br>
    Click Create pull request to open a new pull request.
 
-         
+       
          
 
 
          
+
+https://user-images.githubusercontent.com/76618872/135895408-f217219c-2584-4310-8934-0949bacfebe1.mp4
+
+
 
 
 
