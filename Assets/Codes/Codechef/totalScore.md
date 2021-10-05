@@ -1,7 +1,7 @@
 #### Name: Total Score
 #### Language: C++
 #### Platform: Codechef
-#### Question: https://leetcode.com/problems/two-sum/
+#### Question: https://www.codechef.com/CCRC21C/problems/TOTSCR
 
 #### Question Statement
 
