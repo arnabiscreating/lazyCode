@@ -12,6 +12,6 @@
 - **User friendly** - The simple yet engaging user interface helps you to completely focus on the programming problem that you are solving without any complicated distractions. :cherry_blossom:
 - **Diversity** - You are provided with a ton of programming and DSA problems from a variety of competitive coding platforms that you can solve. :books:
 
-- **Open to all** - The site is open to contribution from any coders around the globe. :earth_americas:
+- **Open to all** - The site is open to contribution from any coder around the globe. :earth_americas:
 
 ---
