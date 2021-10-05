@@ -12,7 +12,9 @@
     </tr>
 </table>
 
-### Plaform - Leetcode
+### Plaform - Leetcode 
+    
+   Problem Link:https://leetcode.com/problems/reverse-linked-list/
 
 
 ### 📖 Statement
