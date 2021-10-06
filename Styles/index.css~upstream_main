@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+body{
+    padding: 0;
+    margin: 0%;
+    background-color: #1B1C26;
+    overflow-x: hidden;
+
+    
+}
+.containers{
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    width: auto;
+    height: 10vh;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.corner{
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-top: 0%;
+    margin-top:0px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #8186B1;
+    font-size: 1.5rem;
+
+}
+.right-container{
+    width: 50vw;
+    height:90vh;
+
+}
+.right-container>img{
+    height: 50vh;
+    width: 50vw;
+    
+}
+.left-container{
+    margin-top: 5vh;
+    width:auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30vh;
+
+}
+.a{
+    width: 30vw;
+    height: 13vh;
+    margin-bottom: 20px;
+}
+.a:hover{
+    cursor: pointer;
+}
+.textt{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 5vh;
+    margin-left: 20px;
+    font-size:1.5rem;
+    font-weight: 100;
+    color: white;
+}
+.corner:hover{
+    cursor: pointer;
+}
+.foot{
+    margin-top: 0px;
+    height:12vh;
+}
+.foot>img{
+    position:relative;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+.t1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    color: #8186B1;
+    top:-350px;
+    left: 1090px;
+}
+.t2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    color: #8186B1;
+    top:-300px;
+    left: 1090px;
+}
+.t3{
+        font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    color: #8186B1;
+    top:-250px;
+    left: 1090px;
+}
+.t4{
+        font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    color: #8186B1;
+    top:-200px;
+    left: 1090px;
+}
+.t5{
+        font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    color: #8186B1;
+    top:-150px;
+    left: 1090px;
+}
