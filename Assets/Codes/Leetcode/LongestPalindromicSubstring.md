@@ -25,9 +25,9 @@ Given a string s, return the longest palindromic substring in s.
 
 ### ✍️ Solution
 
+
 class Solution {
 public:
-    
     int t[1001][1001];
     string lcs(string a, string b, int n){
         int maxi=0;
