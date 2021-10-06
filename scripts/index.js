@@ -1,3 +1,4 @@
+"use strict";
 const cf =document.querySelector(".cf")
 const lc =document.querySelector(".lc");
 const hr =document.querySelector(".hr");
@@ -20,5 +21,8 @@ cf.addEventListener("click" , ()=>{
     window.location.href = "#";
 })
 corner.addEventListener("click" , ()=>{
+    window.location.href="https://www.google.com/";
+})
+mis.addEventListener("click" , ()=>{
     window.location.href="https://www.google.com/";
 })
