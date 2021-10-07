@@ -1,7 +1,4 @@
-<p align="center">
-    <a href="https://hacktoberfest.digitalocean.com/">
-        <img src="https://raw.githubusercontent.com/keshavsingh4522/hacktoberfest2021/35fc6060c5ddead5792f29a2437fea160dbe9804/Assets/logo-hacktoberfest-full.f42e3b1.svg" width="30%">
-    </a>
+
  
  
 <h1 align="center"> 🔖 About lazyCode</h1>
@@ -42,13 +39,8 @@ Taking into account every developer’s zeal to create a competitive coding/DSA 
  
 - To get involved in the project, learners can look for the **labels** on existing issues such as
   
-  > `good first issue`
- 
-  > `beginner friendly` 
- 
-  >`open for all` 
- 
-  >`up for grabs`  
+    `good first issue` | `beginner friendly` | `open for all` |  `up for grabs`  
+
 - In addition, beginners can also raise new issues to contribute to. 
  
 <br>
@@ -105,12 +97,13 @@ Taking into account every developer’s zeal to create a competitive coding/DSA 
  
 </p>
 <div align="center">
-<h1> 🎃 Hacktoberfest and Open Source </h1>
+<p align="center">
+    <a href="https://hacktoberfest.digitalocean.com/">
+        <img src="https://raw.githubusercontent.com/keshavsingh4522/hacktoberfest2021/35fc6060c5ddead5792f29a2437fea160dbe9804/Assets/logo-hacktoberfest-full.f42e3b1.svg" width="30%">
+    </a>
  
  
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/encodeArnab)
-[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/HacktoberFest2K19?logo=GITHUB&style=flat)](https://github.com/encodeArnab/lazyCode/blob/main/LICENSE)
-<img src="https://img.shields.io/badge/hacktoberfest-2021-blueviolet" alt="Hacktober Badge"/>
+
 </div>
  
 #### 🎃 Transpiring from October 1st to 31st, Hacktoberfest is a month-long fiesta sponsored by Digital Ocean and GitHub to give a dive to developers, be it beginners or aces, into the world of open-source contribution.
