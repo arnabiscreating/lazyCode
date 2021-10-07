@@ -1,0 +1,258 @@
+body{
+
+    background: #1B1C26;
+}
+.rectangle11{
+    position: absolute;
+    width: 1540px;
+    height: 185px;
+    left: 0px;
+    top: 0px;
+    background: #1B1C26;
+
+}
+.logo{
+    position: absolute;
+    width: 280px;
+    height: 79px;
+    left: 80px;
+    top: 54px;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 40px;
+/* or 67% */
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    display: flex;
+}
+.btn{
+    position: absolute;
+    width: 500px;
+    height: 88px;
+    left: 860px;
+    top: 50px;
+}
+.group24{
+    
+    position: absolute;
+    width: 305px;
+    height: 30px;
+    left: 957px;
+    top: 77px;
+
+}
+.group4{
+    position: absolute;
+    width: 450px;
+    height: 35px;
+    left: 80px;
+    top: 235px;
+}
+.text1{
+    position: absolute;
+width: 1280px;
+height: 225px;
+left: 80px;
+top: 291px;
+
+font-family: Montserrat Alternates;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+display: flex;
+align-items: center;
+text-align: justify;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+.text2{
+    position: absolute;
+width: 780px;
+height: 280px;
+left: 80px;
+top: 518px;
+
+font-family: Montserrat Alternates;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+text-align: justify;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+.compiler{
+    position: absolute;
+    width: 1280px;
+    height: 790px;
+    left: 80px;
+    top: 851px;
+    background: #222432;
+    border-radius: 15px;
+
+}
+
+.run{
+    position: absolute;
+    width: 426px;
+    height: 38px;
+    left: 80px;
+    top: 878px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+/* or 120% */
+     display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #8186B1;
+   
+}
+.output{
+    position: absolute;
+    width: 426px;
+    height: 38px;
+    left: 507px;
+    top: 878px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+/* or 120% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #8186B1;
+}
+.c{
+    position: absolute;
+    width: 427px;
+    height: 38px;
+    left: 933px;
+    top: 878px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #8186B1;
+
+}
+.nums{
+    
+    position: absolute;
+    width: 60px;
+    height: 700px;
+    left: 80px;
+    top: 935px;
+     font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+/* or 200% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #4A4E73;
+}
+.code{
+    position: absolute;
+    width: 1220px;
+    height: 670px;
+    left: 0px;
+    top: 935px;
+    padding-bottom: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #76F7FF;
+}
+.group25{
+     position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 220px;
+    top: 1685px;
+}
+.back{
+    position: absolute;
+    width: 380px;
+    height: 55px;
+    left: 220px;
+    top: 1685px;
+
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    /* or 160% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+.group26{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 820px;
+    top: 1685px;
+    padding-bottom: 50px;
+}
+.next{
+    position: absolute;
+    width: 380px;
+    height: 55px;
+    left: 820px;
+    top: 1685px;
+
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1px;
+    line-height: 40px;
+    /* or 160% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
