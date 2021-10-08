@@ -18,6 +18,7 @@ Given a binary array nums, return the maximum number of consecutive 1's in the a
 
 ### ✍️ Solution
 
+```
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         count = 0
@@ -29,3 +30,4 @@ class Solution:
             else:
                 count=0
         return mxCount
+```
