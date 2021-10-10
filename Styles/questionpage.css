@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --text-color: #fff;
+  --box-color: #292B3B;
+  --bg-color: #23232E;
+  --number-color: #8186B1;
+}
+
+body {
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+/* ************************** NAVBAR STYLING START************* */
+.navbar {
+  /* border: 2px solid red; */
+  display: flex;
+}
+.logo {
+  /* border: 2px solid wheat; */
+  height: 6rem;
+  width: 15rem;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  padding-top: 5px;
+}
+
+.logo svg {
+  height: 4.5rem;
+}
+.menu {
+  height: 5rem;
+  width: 25rem;
+  margin-top: 2rem;
+  margin-left: 46%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.menu select {
+  appearance: none;
+}
+.menu::after {
+  content: "\25b6";
+  color: #fff;
+  position: absolute;
+  top: 1.7rem;
+  right: 3.5rem;
+  transform: rotate(210deg);
+}
+.menu > option
+{
+  border: 2px solid red;
+}
+#platforms {
+  /* border: 2px solid black; */
+  height: 4rem;
+  width: 25rem;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 0.7rem;
+  background-color: var(--box-color);
+  color: var(--text-color);
+}
+option[value=HACKERRANK]
+{
+  border: 2px solid red;
+}
+/* *****************NAVBAR STYLING END ********************** */
+
+/* *****************HERO SECTION STYLING START ********************** */
+.hero-section {
+  color: var(--text-color);
+  /* border: 2px solid white; */
+}
+.row-box {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.question-box {
+  /* border: 2px solid yellow; */
+  height: 4rem;
+  width: 21rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 0.7rem;
+  background-color: var(--box-color);
+  margin-top: 1rem;
+  margin-left: 6rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+}
+
+.question-box span {
+  /* border: 2px solid red; */
+  margin-left: -30px;
+  margin-right: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--number-color);
+}
+.question-box p {
+  /* border: 2px solid red; */
+  padding-right: 5px;
+  margin-left: 5px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* *****************HERO SECTION STYLING END ********************** */
