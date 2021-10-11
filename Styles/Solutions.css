@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 50px;
+    background-color:#1B1C26;
+}
+.top{
+    width: 100%;
+    height: 250px
+}
+.top-left{
+    width: 45%;
+    float: left;
+    height:200px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.top-right{
+    width: 45%;
+    float: right;
+    height:200px;
+}
+.top-btn{
+    width:400px;
+    height:125px;
+    background-color: #292B3C;
+    float: right;
+    border-radius: 30px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.top-btn-txt{
+    width:80%;
+    height: 50px;
+    margin-top: 35px;
+}
+.heading{
+    width:100%;
+}
+.heading-svg{
+    height: 100px;
+    width: 65%;
+}
+.content-txt p {
+    color: #fff;
+    font-family: helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 85px;
+}
+.output-main{
+    width: 100%;
+}
+.output-box{
+    width:100%;
+    height:fit-content;
+    background-color: #222432;
+    border-radius:20px;
+}
+.options{
+    width: 100%;
+    height:100px;
+}
+.option-1{
+    width: 33.333333%;
+    height:35px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.run , .c , .output, .nums{
+    width: 100%;
+    height:100%;
+}
+.numbers{
+    width: 10%;
+    height: 774px;
+    float: left;
+}
+.code{
+    height: 100%;
+    width: 88%;
+}
+.code-div{
+    height: 780px;
+}
+.bottom-btns{
+    width: 100%;
+    height:100px;
+    margin-top: 50px;
+}
+.btn-1{
+    width: 50%;
+    height:100px;
+    float: left;
+}
+.btn-1 button{
+    background: #222432;
+    border: 0;
+    height: 80px;
+    width: 300px;
+}
+.back , .next{
+    width: 100%;
+    height: 50%;
+}
+.btn-back{
+    position: absolute;
+    right:60%;
+}
+.btn-next{
+    position: absolute;
+    left:60%;
+}
+
+/* --------------------------------------------------- */
+@media only screen and (min-width:768px) {
+
+    .content-txt p {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
+
+/* --------------------------------------------------- */
+@media only screen and (min-width:1000px){
+    
+    .top-left{
+        width:25%;
+    }
+
+    .logo {
+        height: 50%;
+    }
+
+    .top-btn {
+        width: 300px;
+        height: 93.75;
+        margin: 15px;
+    }
+    .top-btn-txt {
+        width: 80%;
+        height: 85px;
+        margin-top: 0;
+    }
+}
