@@ -6,9 +6,9 @@
 }
 :root {
   --text-color: #fff;
-  --box-color: #292B3B;
-  --bg-color: #23232E;
-  --number-color: #8186B1;
+  --box-color: #292b3b;
+  --bg-color: #23232e;
+  --number-color: #8186b1;
 }
 
 body {
@@ -17,32 +17,51 @@ body {
 }
 
 /* ************************** NAVBAR STYLING START************* */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  padding-right: 8%;
+  padding-left: 8%;
+  border: 2px solid white;
+}
+.navbar-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 1%;
+  flex: 1;
+}
+
 .navbar {
   /* border: 2px solid red; */
+  width: 100%;
   display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: space-between;
+  flex: 1;
 }
 .logo {
   /* border: 2px solid wheat; */
-  height: 6rem;
-  width: 15rem;
-  margin-left: 6rem;
-  margin-top: 2rem;
-  padding-top: 5px;
+  padding-top: 1%;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: start;
 }
 
 .logo svg {
-  height: 4.5rem;
+  height: 5rem;
 }
+
 .menu {
+  /* border: 2px solid yellow; */
   height: 5rem;
   width: 25rem;
-  margin-top: 2rem;
-  margin-left: 46%;
-  padding: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-  position: relative;
+  flex-basis: 50%;
 }
 .menu select {
   appearance: none;
@@ -50,14 +69,9 @@ body {
 .menu::after {
   content: "\25b6";
   color: #fff;
-  position: absolute;
-  top: 1.7rem;
-  right: 3.5rem;
+  position: relative;
+  right: 8%;
   transform: rotate(210deg);
-}
-.menu > option
-{
-  border: 2px solid red;
 }
 #platforms {
   /* border: 2px solid black; */
@@ -76,54 +90,264 @@ body {
   background-color: var(--box-color);
   color: var(--text-color);
 }
-option[value=HACKERRANK]
-{
-  border: 2px solid red;
-}
 /* *****************NAVBAR STYLING END ********************** */
 
-/* *****************HERO SECTION STYLING START ********************** */
+/* ***************HERO SECTION STYLING START ****************** */
 .hero-section {
+  /* border: 2px solid yellow; */
   color: var(--text-color);
-  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 15%;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 84%;
+  height: 100%;
+  overflow: hidden;
+  flex-basis: 100%;
 }
 .row-box {
   /* border: 2px solid red; */
+  width: 100%;
+  height: 15%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 1%;
 }
 .question-box {
   /* border: 2px solid yellow; */
-  height: 4rem;
-  width: 21rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 4.5rem;
+  width: 25rem;
   text-transform: capitalize;
   text-align: center;
   border-radius: 0.7rem;
   background-color: var(--box-color);
-  margin-top: 1rem;
-  margin-left: 6rem;
-  margin-right: 4rem;
-  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .question-box span {
   /* border: 2px solid red; */
-  margin-left: -30px;
-  margin-right: 1rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--number-color);
 }
 .question-box p {
   /* border: 2px solid red; */
-  padding-right: 5px;
-  margin-left: 5px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 500;
+  margin-left: -3rem;
+}
+/* *****************HERO SECTION STYLING END ********************** */
+
+/* ****************** RESPONSIVE CODE ****************** */
+
+@media only screen and (max-width: 1300px) {
+  .navbar-container {
+    margin-top: 2%;
+  }
+  .logo svg {
+    height: 4rem;
+  }
+  .menu {
+    /* border: 2px solid yellow; */
+    height: 5rem;
+    width: 22rem;
+  }
+
+  #platforms {
+    /* border: 2px solid black; */
+    height: 4rem;
+    width: 20rem;
+    font-size: 1.4rem;
+  }
+  .question-box {
+    /* border: 2px solid yellow; */
+    height: 4rem;
+    width: 22rem;
+    margin-right: 1rem;
+  }
+  .question-box span {
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--number-color);
+  }
+  .question-box p {
+    /* border: 2px solid red; */
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: -3rem;
+  }
 }
 
-/* *****************HERO SECTION STYLING END ********************** */
+@media only screen and (max-width: 850px) {
+  .navbar-container {
+    margin-top: 2%;
+  }
+  .logo svg {
+    height: 3.5rem;
+  }
+  .menu {
+    /* border: 2px solid yellow; */
+    height: 4.5rem;
+    width: 18rem;
+  }
+  .menu select {
+    appearance: none;
+  }
+  .menu::after {
+    content: "\25b6";
+    color: #fff;
+    position: relative;
+    right: 13%;
+    transform: rotate(210deg);
+  }
+  #platforms {
+    height: 3.5rem;
+    width: 18rem;
+    font-size: 1.2rem;
+  }
+  .question-box {
+    height: 4rem;
+    width: 22rem;
+    margin-right: 1rem;
+  }
+  .question-box span {
+    font-size: 1.2rem;
+  }
+  .question-box p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .menu {
+    /* border: 2px solid yellow; */
+    height: 4.5rem;
+    width: 18rem;
+  }
+  .menu select {
+    appearance: none;
+  }
+  .menu::after {
+    content: "\25b6";
+    color: #fff;
+    position: relative;
+    right: 13%;
+    transform: rotate(210deg);
+  }
+  #platforms {
+    height: 3.5rem;
+    width: 18rem;
+    font-size: 1.2rem;
+  }
+  .question-box {
+    height: 3.8rem;
+    width: 22rem;
+    margin-right: 1rem;
+  }
+  .question-box span {
+    font-size: 1rem;
+  }
+  .question-box p {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-container {
+    margin-top: 3%;
+  }
+  .logo svg {
+    height: 3rem;
+  }
+  .menu {
+    /* border: 2px solid yellow; */
+    height: 4rem;
+    width: 18rem;
+  }
+
+  #platforms {
+    height: 3rem;
+    width: 14rem;
+    font-size: 1.2rem;
+  }
+  .row-box {
+    /* border: 2px solid red; */
+    height: 5rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    height: auto;
+  }
+  .question-box {
+    height: 4.5rem;
+    width: 26rem;
+    margin-top: 2%;
+    border-radius: 0.7rem;
+  }
+  .question-box span {
+    font-size: 2rem;
+  }
+  .question-box p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 528px) {
+  .navbar-container {
+    margin-top: 3%;
+  }
+  .logo svg {
+    height: 2rem;
+    position: relative;
+    left: -15%;
+  }
+  .menu {
+    /* border: 2px solid yellow; */
+    height: 4rem;
+    width: 18rem;
+  }
+  .menu::after {
+    content: "\25b6";
+    color: #fff;
+    position: relative;
+    right: 13%;
+    top: -0.5%;
+    font-size: 0.7rem;
+    transform: rotate(210deg);
+  }
+
+  #platforms {
+    height: 3rem;
+    width: 10rem;
+    font-size: 0.8rem;
+  }
+
+  .row-box {
+    /* border: 2px solid red; */
+    height: 5rem;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    height: auto;
+  }
+  .question-box {
+    height: 4.5rem;
+    width: 24rem;
+    margin-top: 2%;
+    border-radius: 0.7rem;
+  }
+  .question-box span {
+    font-size: 2rem;
+  }
+  .question-box p {
+    font-size: 1.5rem;
+  }
+}
