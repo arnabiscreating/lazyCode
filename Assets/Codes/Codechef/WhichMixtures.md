@@ -41,7 +41,6 @@ double eps = 1e-12;
 #define fast_cin() ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
  
 
-//function:
  
 //main:
 int main()
