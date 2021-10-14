@@ -1,3 +1,22 @@
+#### Name: Which Mixtures 
+#### Language: C++
+#### Platform: Codechef
+#### Question: https://www.codechef.com/OCT21C/problems/MIXTURE/
+
+#### Question Statement
+Chef has A units of solid and B units of liquid. He combines them to create a mixture. What kind of mixture does Chef produce: a solution, a solid, or a liquid?
+
+A mixture is called :
+
+1) A solution if A>0 and B>0,
+
+2) A solid if B=0, or
+
+3) A liquid if A=0.
+
+#### Solution:
+
+```
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
@@ -44,3 +63,6 @@ int main()
     }
     return 0;
 }
+
+
+```
