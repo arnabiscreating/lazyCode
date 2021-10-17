@@ -27,7 +27,7 @@ Taking into account every developer’s zeal to create a competitive coding/DSA 
  
 - Focussing majorly on HTML and CSS, lazyCode is totally beginner-friendly and the ideal project for newcomers to open their first pull request. 
 - To get involved in the project, learners can look for the **labels** on existing issues such as  
- `good first issue` | `beginner friendly` | `open for all` |  `up for grabs`  
+ ```good first issue``` | ```beginner friendly``` | ```open for all``` |  ```up for grabs```   
 - In addition, beginners can also raise new issues to contribute to. 
 - To get started, look at this [file](https://github.com/encodeArnab/lazyCode/blob/main/Assets/commandsGit.md) for Git commands.
  
@@ -63,7 +63,7 @@ Taking into account every developer’s zeal to create a competitive coding/DSA 
 </p>
 <div align="center">
     <a href="https://hacktoberfest.digitalocean.com/">
-        <img src="https://github.com/encodeArnab/lazyCode/blob/main/Assets/images/logoHacktoberfest.svg" width="60%">
+        <img src="https://github.com/encodeArnab/lazyCode/blob/main/Assets/Images/hacktoberfestLogo.svg" width="60%">
     </a>
 </div>
  
