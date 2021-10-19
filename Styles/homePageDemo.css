@@ -17,7 +17,7 @@ body {
   height: 10vh;
   padding: 10px;
   padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -26,15 +26,52 @@ body {
   font-family: "Montserrat Alternates", sans-serif;
   padding-top: 0%;
   margin-top: 0px;
-  display: flex;
+  display:flex;
+
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  color: #8186b1;
+ 
   font-size: 1.5rem;
   transition: all 0.5s;
 }
+.button{
+  size: 10px;
+  height: 60px;
+  margin-right: 20px;
+  width: 60px;
+  border-top-style: groove;
+  border-radius: 30%;
+  border-top-right-radius: 0%;
+  border-style:none;
+  background-color:#242533;
+  cursor: pointer;
+  margin-top: 8%;
+  
+  justify-content: space-evenly;
+}
+.button img{
+  display: block;
 
+  width: 60%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+}
+.wideButton{
+  size: 10px;
+  width: 30vw;
+  height: 13vh;
+  margin-right: 20px;
+  border-top-style: groove;
+  border-radius: 10px;
+  border-style:none;
+  background-color:#242533;
+  cursor: pointer;
+  margin-top: 5%;
+  justify-content: space-between;
+}
 .corner:hover {
   color: beige;
 }
@@ -48,6 +85,15 @@ body {
   height: 50vh;
   width: 50vw;
 }
+.a img{
+display: block;
+
+width: 60%;
+
+margin-left: auto;
+
+margin-right: auto;
+}
 
 .left-container {
   margin-top: 5vh;
@@ -59,10 +105,8 @@ body {
 }
 
 .a {
-  width: 30vw;
-  height: 13vh;
-  margin-bottom: 20px;
-  opacity: 0;
+  size: 50px;
+  height: 10vh; 
   transition: all 0.5s;
 }
 
@@ -109,7 +153,6 @@ body {
   font-weight: 100;
   color: white;
 }
-
 .corner:hover {
   cursor: pointer;
 }
