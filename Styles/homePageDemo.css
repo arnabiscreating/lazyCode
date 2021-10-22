@@ -210,3 +210,55 @@ margin-right: auto;
   top: -150px;
   left: 1090px;
 }
+@media ( min-width : 321px) and (max-width : 768px) {
+  
+  .containers{
+    flex-direction: column;
+    position: relative;
+  }
+  .header{
+    justify-content:space-between ;
+    margin-left:1rem;
+    margin-right:15vw;
+  }
+  .a {
+    width: 100vw;
+    height: 50vh
+    margin-left:15vw;
+    margin-right:30vw;
+  }
+  .corner{
+    margin-left:20vw;
+    margin-right:0;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .right-container{
+    width: 100vw;
+    height:auto;
+  }
+  .textt{
+    width: 100vw;
+    justify-content: center;
+    margin-left:20vw;
+  }
+  .left-container{
+    margin-top:1vh;
+    height:100vw;
+    width: 100vw;
+    padding-top: 0;
+    margin-left:15vw;
+    padding-left:0;
+    margin-right:10vw;
+  }
+  img[src="../Assets/Images/lazyCat.svg"]{
+    margin-left:15vw;
+    margin-right:15vw;
+    width:100vw;
+  }
+}
+
+
+
+
+
