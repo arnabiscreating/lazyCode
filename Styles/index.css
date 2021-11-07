@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,215 +8,256 @@
   letter-spacing: 2px;
 }
 
+span {
+  color: #8186b1;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+}
+
 body {
   background-color: #1b1c26;
-  padding: 0 5%;
 }
 
-/* grid */
-
-.nav,
-.hero {
-  display: grid;
-  grid-template-columns: auto auto;
+button span {
+  color: #ffb445;
 }
 
-/* nav */
+main {
+  margin: 6% 8% 8% 8%;
+}
 
-.nav {
+/* Navigation Menu */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   background-color: #292b3b;
-  padding: 1%;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  width: 96%;
+  margin: 0% 2%;
+  box-sizing: border-box;
+  height: 100px;
 }
 
-.nav a {
-  font-size: 2rem;
+nav li {
+  display: inline;
+  font-style: normal;
   font-weight: 900;
-  margin: 0 1rem;
+  font-size: 20px;
+  line-height: 40px;
+  margin: 0 5rem 0 0;
   color: #8186b1;
 }
 
-.logo {
+.lazyCodeLogoHeader {
   width: 10rem;
+  margin-left: 5%;
 }
 
-a:hover {
+li:hover {
   cursor: pointer;
   color: #fff;
+  transition: color 0.5s;
 }
 
-.nav-child2 {
+.mobileNavigationButton {
+  display: none;
+}
+
+/* Hero Section */
+
+.heroSection {
   display: flex;
-  justify-content: flex-end;
-}
-
-/* hero */
-
-.hero {
-  margin-top: 2%;
-}
-
-.hero-child {
-  padding: 1rem;
-}
-
-.hero-child2 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.hero-child2 img {
-  width: 90%;
-  height: 80%;
-}
-
-.main1 {
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-.main1 span,
-.main2 h1 {
-  font-weight: bold;
-  color: #8186b1;
-}
-
-.main2 h2 {
-  margin-top: 1rem;
-  font-size: 1.8rem;
-}
-
-.main2 h1 {
-  font-size: 3rem;
-}
-
-.main3 {
-  margin-top: 3rem;
-}
-
-.hero-child1 .main3 a,
-.section4 a {
-  color: rgb(241, 187, 37);
-  display: flex;
-  background-color: #292b3c;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  border-radius: 5px;
-  width: 80%;
-  height: 2rem;
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-weight: 1000;
+  width: 100%;
+  margin-bottom: 10%;
 }
 
-.main3 span {
+.headerLine {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.heroSectionLeftColumn h2 {
+  width: 100%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.headingText {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  margin-bottom: 80px;
+}
+
+.heroSectionLeftColumn button {
+  width: 78%;
+  height: 60px;
+  background: #292b3c;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 40px;
   color: #4fbaff;
 }
 
-/* section1 */
-
-.section1 {
-  text-align: center;
-  margin-top: 2%;
-  font-size: 1.5rem;
-  font-weight: 900;
+.lazyCatImage {
+  width: 50%;
 }
 
-.section1 p .inc {
-  font-size: 1.8rem;
-}
-
-.section1 .blue {
-  color: #8186b1;
-}
-
-/* section2 */
-
-.section2 {
-  font-weight: 900;
-  margin: 4% 0;
-  display: grid;
-  grid-template-columns: auto auto;
-  letter-spacing: 5px;
-}
-
-.section2-child1 {
-  font-size: 2rem;
-}
-
-.section2-child2 {
-  text-align: right;
-  font-size: 1.2rem;
-}
-
-.section2 span {
-  color: #8186b1;
-}
-
-/* section3 */
-
-.section3 {
-  margin: 4% 0;
-  position: relative;
-}
-
-.section3 img {
+.lazyCodeWelcome {
   width: 100%;
-}
-
-.section3 .absolute {
-  font-size: 4rem;
+  font-style: normal;
   font-weight: 900;
-  position: absolute;
-  top: 25%;
-  right: 0%;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
 }
 
-.section3 span {
-  color: #8186b1;
+.lazyCodeDescription {
+  width: 100%;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
 }
 
-.section4 {
-  margin: 4% 0;
+.simpleMinimalWrapper {
+  margin: 8% 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-weight: bold;
+  width: 30%;
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.simpleMinimalWrapper h1 {
+  width: 620px;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  letter-spacing: 0.1em;
+}
+
+.codersDelightWrapper {
   display: flex;
   justify-content: space-evenly;
-}
-
-.section4 a {
-  display: inline-block;
-  width: 40%;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 2.5rem;
+  margin-bottom: 8%;
 }
 
-.section4 .git {
+.codersDelightWrapper h1 {
+  width: 620px;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  letter-spacing: 0.1em;
+  margin-left: -45%;
+}
+
+.openSourceTextWrapper {
+  margin: 8% 0% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.openSourceTextWrapper h1 {
+  width: 620px;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  letter-spacing: 0.1em;
+}
+
+.openSourceButtons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  background: #292b3c;
+  border-radius: 10px;
+  width: 35%;
+  height: 60px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffb445;
+  border: none;
+}
+
+.openSourceButtons button span {
   color: #8186b1;
 }
 
 /* footer */
 
-.footer {
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
   background-color: #292b3b;
-  padding: 1%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  display: grid;
-  grid-template-columns: 60% 20% 20%;
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 10%;
+  box-sizing: border-box;
+  height: 200px;
 }
 
-.footer .child {
-  display: grid;
+.lazyCodeLogoFooter {
+  width: 10rem;
+  margin-left: 5%;
+  margin-top: -5%;
 }
 
-.footer .child a {
+.footerLinksColumnWrapper {
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+footer li {
   color: #8186b1;
-  margin-bottom: 1rem;
+  list-style-type: none;
 }
 
-.footer .child2,
-.footer .child1 {
-  text-align: left;
+footer li:hover {
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.5s;
+  border-bottom: none;
 }
