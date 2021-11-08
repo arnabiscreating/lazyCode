@@ -56,12 +56,6 @@ nav li {
   margin-left: 5%;
 }
 
-li:hover {
-  cursor: pointer;
-  color: #fff;
-  transition: color 0.5s;
-}
-
 .mobileNavigationButton {
   display: none;
 }
@@ -117,6 +111,17 @@ li:hover {
   width: 50%;
 }
 
+a{
+  color: #8186b1;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.5s;
+}
+
 .lazyCodeWelcome {
   width: 100%;
   font-style: normal;
@@ -164,7 +169,7 @@ p {
 
 .codersDelightWrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 8%;
 }
@@ -175,7 +180,7 @@ p {
   font-size: 100px;
   line-height: 122px;
   letter-spacing: 0.1em;
-  margin-left: -45%;
+  text-align: right;
 }
 
 .openSourceTextWrapper {
@@ -202,7 +207,7 @@ p {
 button {
   background: #292b3c;
   border-radius: 10px;
-  width: 35%;
+  width: 40%;
   height: 60px;
   letter-spacing: 0.1em;
   font-weight: bold;
@@ -235,7 +240,7 @@ footer {
 .lazyCodeLogoFooter {
   width: 10rem;
   margin-left: 5%;
-  margin-top: -5%;
+  margin-top: -60px;
 }
 
 .footerLinksColumnWrapper {
