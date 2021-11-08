@@ -26,8 +26,6 @@ main {
   margin: 6% 8% 8% 8%;
 }
 
-/* Navigation Menu */
-
 header {
   display: flex;
   align-items: center;
@@ -56,12 +54,6 @@ nav li {
   margin-left: 5%;
 }
 
-.mobileNavigationButton {
-  display: none;
-}
-
-/* Hero Section */
-
 .heroSection {
   display: flex;
   justify-content: space-between;
@@ -71,9 +63,8 @@ nav li {
 }
 
 .headerLine {
-  width: 100%;
+  width: 90%;
   margin-bottom: 30px;
-  font-size: 25px;
   font-style: normal;
   font-weight: 900;
   font-size: 30px;
@@ -89,12 +80,12 @@ nav li {
 .headingText {
   font-style: normal;
   font-weight: 900;
-  font-size: 60px;
+  font-size: 56px;
   margin-bottom: 80px;
 }
 
 .heroSectionLeftColumn button {
-  width: 78%;
+  width: 76%;
   height: 60px;
   background: #292b3c;
   border-radius: 10px;
@@ -111,7 +102,7 @@ nav li {
   width: 50%;
 }
 
-a{
+a {
   color: #8186b1;
   text-decoration: none;
 }
@@ -152,7 +143,7 @@ a:hover {
 
 p {
   font-weight: bold;
-  width: 30%;
+  width: 29%;
   font-size: 30px;
   text-align: right;
   letter-spacing: 0.1em;
@@ -265,4 +256,213 @@ footer li:hover {
   color: #fff;
   transition: color 0.5s;
   border-bottom: none;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  .headerLine {
+    font-size: 25px;
+  }
+
+  .headingText {
+    font-size: 50px;
+  }
+
+  .heroSectionLeftColumn button {
+    width: 85%;
+  }
+
+  .lazyCodeWelcome {
+    font-size: 35px;
+  }
+
+  .lazyCodeDescription {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  .simpleMinimalWrapper h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .codersDelightWrapper h1 {
+    margin-left: -40%;
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .codersDelightWrapper img {
+    width: 50%;
+  }
+
+  .openSourceTextWrapper h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  button {
+    width: 40%;
+    font-size: 20px;
+  }
+
+  .openSourceButtons button span {
+    color: #8186b1;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  nav li {
+    display: none;
+  }
+
+  .mobileNavigationButton {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+
+  .mobileNavigationButton strong {
+    font-weight: 900;
+  }
+
+  header {
+    height: 80px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 0 5%;
+  }
+
+  .heroSection {
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .headerLine {
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .lazyCodeLogoHeader {
+    width: 8rem;
+    margin-left: 0%;
+  }
+
+  .heroSectionLeftColumn h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .headingText {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .heroSectionLeftColumn button {
+    width: 100%;
+    font-size: 18px;
+    height: 50px;
+  }
+
+  .lazyCatImage {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .lazyCodeWelcome {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .lazyCodeDescription {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .simpleMinimalWrapper {
+    flex-wrap: wrap;
+  }
+
+  p {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .simpleMinimalWrapper h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 8% 0 4% 0;
+  }
+
+  .codersDelightWrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .codersDelightWrapper h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 8% 0 4% 0;
+  }
+
+  .codersDelightWrapper img {
+    width: 100%;
+  }
+
+  .openSourceTextWrapper {
+    flex-wrap: wrap;
+  }
+
+  .openSourceTextWrapper h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 8% 0 4% 0;
+  }
+
+  .openSourceButtons {
+    flex-wrap: wrap;
+  }
+
+  button {
+    margin-top: 5%;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: 320px;
+    text-align: center;
+    margin-top: 15%;
+    padding: 8%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .lazyCodeLogoFooter {
+    width: 10rem;
+    margin-left: 0%;
+    margin-top: 0px;
+  }
+
+  .footerLinksColumnWrapper {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+  }
 }
