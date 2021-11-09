@@ -319,7 +319,7 @@ footer li:hover {
 
 @media only screen and (min-width: 300px) and (max-width: 800px) {
   nav li {
-    visibility: hidden;
+    display: none;
   }
 
   .mobileNavigationButton {
@@ -455,19 +455,19 @@ footer li:hover {
     text-align: center;
     margin-top: 15%;
     padding: 8%;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
   }
 
   .lazyCodeLogoFooter {
     width: 10rem;
     margin-left: 0%;
-    margin-top: 25px;
   }
 
   .footerLinksColumnWrapper {
     width: 100%;
     font-size: 16px;
     line-height: 30px;
+    margin-bottom: 2%;
   }
 }
