@@ -26,6 +26,10 @@ main {
   margin: 6% 8% 8% 8%;
 }
 
+.mobileNavigationButton {
+    visibility: hidden;
+  }
+
 header {
   display: flex;
   align-items: center;
@@ -198,7 +202,7 @@ p {
 button {
   background: #292b3c;
   border-radius: 10px;
-  width: 40%;
+  width: 450px;
   height: 60px;
   letter-spacing: 0.1em;
   font-weight: bold;
@@ -304,7 +308,7 @@ footer li:hover {
   }
 
   button {
-    width: 40%;
+    width: 400px;
     font-size: 20px;
   }
 
@@ -315,10 +319,11 @@ footer li:hover {
 
 @media only screen and (min-width: 300px) and (max-width: 800px) {
   nav li {
-    display: none;
+    visibility: hidden;
   }
 
   .mobileNavigationButton {
+    visibility: visible;
     font-weight: 700;
     letter-spacing: 0.05em;
   }
@@ -457,7 +462,7 @@ footer li:hover {
   .lazyCodeLogoFooter {
     width: 10rem;
     margin-left: 0%;
-    margin-top: 0px;
+    margin-top: 25px;
   }
 
   .footerLinksColumnWrapper {

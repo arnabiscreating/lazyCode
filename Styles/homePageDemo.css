@@ -1,264 +1,123 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+  letter-spacing: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  width: 100px;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+}
+
+nav h1 span {
+  color: #8186b1;
+}
+
+h5 {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  width: 120px;
+}
+
+ul img {
+  width: 25%;
+  margin-left: 5%;
+}
 
 body {
-  padding: 0;
-  margin: 0%;
   background-color: #1b1c26;
-  overflow-x: hidden;
+  margin: 3% 5% 5% 5%;
 }
 
-.containers {
-  display: flex;
-  flex-direction: row;
+.platformButtons {
+  width: 40%;
 }
 
-.header {
-  width: auto;
-  height: 10vh;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 80px;
+button {
+  background: #292b3c;
+  border-radius: 15px;
+  width: 100%;
+  height: 90px;
+  border: none;
+  margin-bottom: 6%;
+}
+
+article {
   display: flex;
   justify-content: space-between;
-}
-
-.corner {
-  font-family: "Montserrat Alternates", sans-serif;
-  padding-top: 0%;
-  margin-top: 0px;
-  display:flex;
-
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
- 
-  font-size: 1.5rem;
-  transition: all 0.5s;
-}
-.button{
-  size: 10px;
-  height: 60px;
-  margin-right: 20px;
-  width: 60px;
-  border-top-style: groove;
-  border-radius: 30%;
-  border-top-right-radius: 0%;
-  border-style:none;
-  background-color:#242533;
-  cursor: pointer;
-  margin-top: 8%;
-  
-  justify-content: space-evenly;
-}
-.button img{
-  display: block;
-
-  width: 60%;
-
-  margin-left: auto;
-
-  margin-right: auto;
-}
-.wideButton{
-  size: 10px;
-  width: 30vw;
-  height: 13vh;
-  margin-right: 20px;
-  border-top-style: groove;
-  border-radius: 10px;
-  border-style:none;
-  background-color:#242533;
-  cursor: pointer;
-  margin-top: 5%;
-  justify-content: space-between;
-}
-.corner:hover {
-  color: beige;
 }
 
-.right-container {
-  width: 50vw;
-  height: 90vh;
+.introductionAndLazyCat {
+  width: 50%;
 }
 
-.right-container > img {
-  height: 50vh;
-  width: 50vw;
-}
-.a img{
-display: block;
-
-width: 60%;
-
-margin-left: auto;
-
-margin-right: auto;
-}
-
-.left-container {
-  margin-top: 5vh;
-  width: auto;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  padding-left: 30vh;
-}
-
-.a {
-  size: 50px;
-  height: 10vh; 
-  transition: all 0.5s;
-}
-
-.left-container img:nth-child(1) {
-  animation: trans-upwards 0.5s linear forwards;
-}
-
-.left-container img:nth-child(2) {
-  animation: trans-upwards 0.5s linear 0.3s forwards;
-}
-
-.left-container img:nth-child(3) {
-  animation: trans-upwards 0.5s linear 0.6s forwards;
-}
-
-.left-container img:nth-child(4) {
-  animation: trans-upwards 0.5s linear 0.9s forwards;
-}
-
-.left-container img:nth-child(5) {
-  animation: trans-upwards 0.5s linear 1.2s forwards;
-}
-
-@keyframes trans-upwards {
-  0% {
-    opacity: 0;
-    transform: translateY(45px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.left-container > img:hover {
-  cursor: pointer;
-}
-
-.textt {
-  font-family: "Montserrat Alternates", sans-serif;
-  margin-top: 5vh;
-  margin-left: 20px;
-  font-size: 1.5rem;
-  font-weight: 100;
+p {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+  letter-spacing: 0.1em;
   color: white;
-}
-.corner:hover {
-  cursor: pointer;
+  width: 100%;
 }
 
-.foot {
-  margin-top: 0px;
-  height: 12vh;
+.introductionAndLazyCat img {
+  width: 100%;
+  margin-top: 5%;
 }
 
-.foot > img {
-  position: relative;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  width: 80vw;
-  height: 50vh;
-  margin-bottom: 20px;
-}
-
-.t1 {
-  font-family: "Montserrat Alternates", sans-serif;
-  position: relative;
-  color: #8186b1;
-  top: -350px;
-  left: 1090px;
-}
-
-.t2 {
-  font-family: "Montserrat Alternates", sans-serif;
-  position: relative;
-  color: #8186b1;
-  top: -300px;
-  left: 1090px;
-}
-
-.t3 {
-  font-family: "Montserrat Alternates", sans-serif;
-  position: relative;
-  color: #8186b1;
-  top: -250px;
-  left: 1090px;
-}
-
-.t4 {
-  font-family: "Montserrat Alternates", sans-serif;
-  position: relative;
-  color: #8186b1;
-  top: -200px;
-  left: 1090px;
-}
-
-.t5 {
-  font-family: "Montserrat Alternates", sans-serif;
-  position: relative;
-  color: #8186b1;
-  top: -150px;
-  left: 1090px;
-}
-@media ( min-width : 321px) and (max-width : 768px) {
-  
-  .containers{
-    flex-direction: column;
-    position: relative;
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  h1 {
+    font-size: 28px;
+    line-height: 20px;
+    margin-right: 40%;
   }
-  .header{
-    justify-content:space-between ;
-    margin-left:1rem;
-    margin-right:15vw;
+
+  ul img {
+    width: 25%;
+    margin-left: 5%;
   }
-  .a {
-    width: 100vw;
-    height: 50vh
-    margin-left:15vw;
-    margin-right:30vw;
-  }
-  .corner{
-    margin-left:20vw;
-    margin-right:0;
-    justify-content: space-around;
+
+  article {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
-  .right-container{
-    width: 100vw;
-    height:auto;
+
+  p {
+    font-size: 18px;
+    line-height: 25px;
   }
-  .textt{
-    width: 100vw;
-    justify-content: center;
-    margin-left:20vw;
+
+  .platformButtons {
+    width: 100%;
+    margin-top: 10%;
   }
-  .left-container{
-    margin-top:1vh;
-    height:100vw;
-    width: 100vw;
-    padding-top: 0;
-    margin-left:15vw;
-    padding-left:0;
-    margin-right:10vw;
-  }
-  img[src="../Assets/Images/lazyCat.svg"]{
-    margin-left:15vw;
-    margin-right:15vw;
-    width:100vw;
+
+  .introductionAndLazyCat {
+    width: 100%;
+    margin-top: 5%;
   }
 }
-
-
-
-
-
