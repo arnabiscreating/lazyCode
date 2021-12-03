@@ -216,6 +216,11 @@ button {
   color: #8186b1;
 }
 
+.openSourceButtons button:hover{
+  cursor: pointer; 
+  color: white;
+}
+
 /* footer */
 
 footer {
