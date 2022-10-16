@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   color: white;
   letter-spacing: 2px;
 }
@@ -27,8 +27,8 @@ main {
 }
 
 .mobileNavigationButton {
-    visibility: hidden;
-  }
+  visibility: hidden;
+}
 
 header {
   display: flex;
@@ -216,8 +216,8 @@ button {
   color: #8186b1;
 }
 
-.openSourceButtons button:hover{
-  cursor: pointer; 
+.openSourceButtons button:hover {
+  cursor: pointer;
   color: white;
 }
 
@@ -242,7 +242,13 @@ footer {
   margin-left: 5%;
   margin-top: -60px;
 }
-
+.scroll {
+  margin-left: -52%;
+  margin-top: 103px;
+}
+.scroll img {
+  height: 65px;
+}
 .footerLinksColumnWrapper {
   width: 50%;
   flex-wrap: wrap;
@@ -267,7 +273,7 @@ footer li:hover {
   border-bottom: none;
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1300px) {
+@media only screen and (min-width: 939px) and (max-width: 1300px) {
   .headerLine {
     font-size: 25px;
   }
@@ -319,6 +325,71 @@ footer li:hover {
 
   .openSourceButtons button span {
     color: #8186b1;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 939px) {
+  .headerLine {
+    font-size: 25px;
+  }
+
+  .headingText {
+    font-size: 50px;
+  }
+
+  .heroSectionLeftColumn button {
+    width: 85%;
+  }
+
+  .lazyCodeWelcome {
+    font-size: 35px;
+  }
+
+  .lazyCodeDescription {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .simpleMinimalWrapper h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .codersDelightWrapper h1 {
+    margin-left: -40%;
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .codersDelightWrapper img {
+    width: 50%;
+  }
+
+  .openSourceTextWrapper h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  button {
+    width: 400px;
+    font-size: 20px;
+  }
+
+  .openSourceButtons button span {
+    color: #8186b1;
+  }
+  .footerLinksColumnWrapper {
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 42px;
   }
 }
 
@@ -468,7 +539,13 @@ footer li:hover {
     width: 10rem;
     margin-left: 0%;
   }
-
+  .scroll {
+    margin-left: -100%;
+    margin-top: 45px;
+  }
+  .scroll img {
+    height: 47px;
+  }
   .footerLinksColumnWrapper {
     width: 100%;
     font-size: 16px;
