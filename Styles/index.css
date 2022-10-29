@@ -242,13 +242,23 @@ footer {
   margin-left: 5%;
   margin-top: -60px;
 }
+
 .scroll {
-  margin-left: -52%;
-  margin-top: 103px;
+  justify-content: center;
+  display: flex;
+  margin-left: -48%;
+  margin-top: 6.5%;
 }
+
+.scroll h6 {
+  margin-top: 0.5%;
+  margin-left: 10%;
+}
+
 .scroll img {
-  height: 65px;
+  height: 30px;
 }
+
 .footerLinksColumnWrapper {
   width: 50%;
   flex-wrap: wrap;
@@ -544,7 +554,7 @@ footer li:hover {
     margin-top: 45px;
   }
   .scroll img {
-    height: 47px;
+    height: 25px;
   }
   .footerLinksColumnWrapper {
     width: 100%;
