@@ -1,7 +1,7 @@
  
-<h1 align ="center">  📝 Some useful git commands for beginners</h1>
+<h1 align ="center">  📝 Some useful GIT commands for beginners</h1>
  
-<b>Git: configurations</b>
+<b>Configurations</b>
  
 >`git config --global user.name “FirstName LastName”`
  
@@ -11,13 +11,13 @@
  
 >`git config --list`
  
-<b>Git: starting a repository</b>
+<b>Starting a Repository</b>
 
 >`git init`
  
 >`git status`
  
-<b>Git: staging files</b>
+<b>Staging Files</b>
  
 >`git add [file-name]`
  
@@ -33,13 +33,13 @@
  
 >`git reset [file-name]`
  
-<b>Git: committing to a repository</b>
+<b>Committing to a Repository</b>
  
 > `git commit -m “Initial commit”`
  
 > `git commit --amend -m [enter your message]`
 
-<b>Git: pulling and pushing from and to repositories</b>
+<b>Pulling and Pushing from and to Repositories</b>
 
 >`git remote add origin [link]`
  
@@ -49,7 +49,7 @@
  
 >`git pull`
  
-<b>Git: branching</b>
+<b>Branching</b>
 
 >`git branch`
  
