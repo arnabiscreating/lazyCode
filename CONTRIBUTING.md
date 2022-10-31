@@ -63,7 +63,7 @@ Taking into account every developer’s zeal to create a competitive coding/DSA 
 </p>
 <div align="center">
     <a href="https://hacktoberfest.digitalocean.com/">
-        <img src="https://github.com/encodeArnab/lazyCode/blob/main/Assets/Images/hacktoberfestLogo.svg" width="60%">
+        <img src="https://github.com/encodeArnab/lazyCode/blob/main/Assets/Images/hacktoberfestLogo.png" width="100%">
     </a>
 </div>
  
@@ -73,7 +73,7 @@ Taking into account every developer’s zeal to create a competitive coding/DSA 
  
 #### 🎯 During the entire month of October 2021, all you have to do is open at least 4 pull requests. Complete the 2021 challenge and earn a limited edition T-shirt. You can even opt for having a tree 🌲 planted in your name instead of receiving t-shirt as swag in order to make Hacktoberfest 2021 more carbon neutral. 
  
-#### 📢 Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest 2021.
+#### 📢 Register [here](https://hacktoberfest.com/) for Hacktoberfest 2021.
  
 <h2 align= "center"> 📜 General guidelines about Hacktoberfest </h2>
  
